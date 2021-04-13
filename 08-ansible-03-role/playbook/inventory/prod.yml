@@ -1,0 +1,17 @@
+---
+elasticsearch:
+  hosts:
+    netology_ubuntu_1:
+      ansible_connection: docker
+    netology_centos7_1:
+      ansible_connection: docker
+    netology_centos8_1:
+      ansible_connection: docker
+kibana:
+  hosts:
+    netology_ubuntu_1:
+      ansible_connection: docker
+    netology_centos7_1:
+      ansible_connection: docker
+    netology_centos8_1:
+      ansible_connection: docker
