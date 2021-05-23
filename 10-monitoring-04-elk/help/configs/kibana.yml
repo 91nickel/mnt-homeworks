@@ -1,0 +1,5 @@
+#server.name: kibana
+#server.host: "kibana"
+#elasticsearch.hosts: [ "http://es-hot:9200" ]
+#monitoring.ui.container.elasticsearch.enabled: true
+elasticsearch.requestTimeout: 70000
